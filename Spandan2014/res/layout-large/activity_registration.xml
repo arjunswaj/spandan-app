@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin_large"
+    android:paddingRight="@dimen/activity_horizontal_margin_large"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegistrationActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/name" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/emailId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/email_id"
+            android:inputType="textEmailAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/yearOfJoining"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/year_of_joining"
+            android:inputType="numberSigned" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/events"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/badminton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/badminton" />
+
+            <CheckBox
+                android:id="@+id/chess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chess" />
+
+            <CheckBox
+                android:id="@+id/nfs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nfs" />
+
+            <CheckBox
+                android:id="@+id/fifa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fifa" />
+
+            <CheckBox
+                android:id="@+id/marathon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marathon" />
+
+            <CheckBox
+                android:id="@+id/bikerace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bike" />
+
+            <CheckBox
+                android:id="@+id/tabletennis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tabletennis" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register" />
+        <TextView
+            android:id="@+id/registerForTeamEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_team_events"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</ScrollView>

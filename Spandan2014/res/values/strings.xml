@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spandan 2014</string>
+    <string name="spandan_2014">Spandan 2014</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="label">Label</string>
+    <string name="register">Register</string>
+    <string name="contact">Contact</string>
+    <string name="spoc">SPOC</string>
+    <string name="games">Games</string>
+    <string name="rules">Rules</string>
+    <string name="gallery">Gallery</string>
+    <string name="announcements">Announcements</string>
+    <string name="title_activity_rules">Games</string>
+    <string name="title_activity_rules_list">Rules</string>
+    <string name="loading">Loading</string>
+    <string name="title_activity_rules_details">Game Rules</string>
+    <string name="title_activity_spoc">Spoc Details</string>
+    <string name="title_activity_saccontact">SAC 2013</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_id">Email ID</string>
+    <string name="year_of_joining">Year of Joining IIIT-B</string>
+    <string name="events">Events</string>
+    <string name="register_team_events">Register for Team Events on the Website</string>  
+    <string name="badminton">Badminton</string>
+    <string name="chess">Chess</string>
+    <string name="nfs">NFS - Most Wanted</string>
+    <string name="fifa">FIFA</string>
+    <string name="marathon">Mini Marathon</string>
+    <string name="bike">Slow Bike Race</string>
+    <string name="tabletennis">Table Tennis</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_alerts">Alerts</string>
+    <string name="rate">Rate the App</string>
+    <string name="share">Share</string>
+    <string name="spandan_update">Spandan Update</string>
+    <string name="contact_sac">Contact SAC?</string>
+    <string name="contact_spoc">Contact SPOC?</string>
+    <string name="enable_net">Please enable WiFi/Data on your device</string>
+    <string name="somethings_wrong">Registration unsuccessful. Please try again or do the registration on the website.</string>
+    <string name="oops">OOPS! Something\'s wrong with the connectivity. Please try again.</string>
+    <string name="success">Successfully Registered.</string>
+</resources>

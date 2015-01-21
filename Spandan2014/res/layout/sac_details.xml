@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/sac_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/label"
+        android:padding="2dp"
+        android:src="@drawable/sac" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/sac_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:padding="2dp"
+            android:text="@string/label"
+            android:textSize="24sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/sac_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:padding="2dp"
+            android:text="@string/label"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/sac_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:padding="2dp"
+            android:text="@string/label"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/sac_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:padding="2dp"
+            android:text="@string/label"
+            android:textSize="14sp" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
